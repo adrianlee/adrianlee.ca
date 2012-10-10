@@ -1,0 +1,21 @@
+{
+  "name": "adrian",
+  "domains": [
+    "adrianlee.ca",
+    "www.adrianlee.ca"
+  ],
+  "version": "0.0.1-4",
+  "private": true,
+  "scripts": {
+    "start": "node redirect.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "hbs": "*",
+    "redirect": "*"
+  },
+  "subdomain": "adrian",
+  "engines": {
+    "node": "0.8.x"
+  }
+}
