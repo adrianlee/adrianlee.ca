@@ -4,15 +4,16 @@
     "adrianlee.ca",
     "www.adrianlee.ca"
   ],
-  "version": "0.0.1-4",
+  "version": "0.0.1-8",
   "private": true,
   "scripts": {
-    "start": "node redirect.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "express": "*",
+    "express": "3.0",
     "hbs": "*",
-    "redirect": "*"
+    "redirect": "*",
+    "octonode": "*"
   },
   "subdomain": "adrian",
   "engines": {

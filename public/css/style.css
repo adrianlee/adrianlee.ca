@@ -1,8 +1,30 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 16px "Gudea", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #CC333F;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.lead1 {
+    background-color: #87D69B;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.lead2 {
+    background-color: #C3FF68;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.lead3 {
+    background-color: #7ED0D6;
+    padding: 5px 10px;
+    border-radius: 5px;
 }

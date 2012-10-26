@@ -7,6 +7,9 @@ var express = require('express'),
 
 var app = express();
 
+// var github = require('octonode');
+// var githubClient = github.client();
+
 ////////////////////////////////////////////////
 // Express Configuration
 ////////////////////////////////////////////////
@@ -53,7 +56,18 @@ hbs.registerHelper('block', function(name) {
 // Router
 ////////////////////////////////////////////////
 app.get('/', function(req, res) {
-  res.render('index', { title: 'Express' });
+
+  // don't want to block.
+  // githubClient.get('/users/adrianlee', function (err, status, body) {
+  //   if (err) {
+  //     console.log(err);
+  //     res.render('index', { title: 'adrianlee.ca', github: { avatar_url: "/img/spongebob.jpeg" } });
+  //   }
+  //   console.log(body);
+  //   res.render('index', { title: 'adrianlee.ca', github: body });
+  // });
+
+  res.render('index', { title: 'adrianlee.ca', github: { gravatar_id: "6438455cfde96c145cc9a53fd8657ef7" } });
 });
 
 ////////////////////////////////////////////////
