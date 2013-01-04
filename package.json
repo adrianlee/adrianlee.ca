@@ -4,7 +4,7 @@
     "adrianlee.ca",
     "www.adrianlee.ca"
   ],
-  "version": "0.0.1-8",
+  "version": "0.0.1-15",
   "private": true,
   "scripts": {
     "start": "node app.js"

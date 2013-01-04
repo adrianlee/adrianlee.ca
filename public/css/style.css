@@ -1,6 +1,7 @@
 body {
     padding: 50px;
-    font: 16px "Gudea", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 100% "Ubuntu", "Gudea", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 a {
